@@ -1,0 +1,2 @@
+<h2><a href="[field:arcurl/]"   target="_blank">1.生物免疫平衡多元疗法三大核心治疗理念</a></h2>
+        <p>风湿病是一种常见的慢性疾病，不少患者对风湿、类风湿的治疗倍感失望，年年治年年犯，对医生时有...<a href="[field:arcurl/]" target="_blank" style="color:#F00">[详细]</a></p>

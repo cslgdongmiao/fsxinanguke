@@ -1,0 +1,1 @@
+<a href="/yygk/" target="_blank">“Ω‘∫ΩÈ…‹</a>

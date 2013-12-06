@@ -1,0 +1,74 @@
+<script language="JavaScript" src="/js/swt.js"></script>
+<div  class="top t_align"><a href="/"><img src="/images/logo.jpg" width="1000" height="100" border="0"  /></a> </div>
+<div class="hbanner">
+  <div class="bd">
+    <ul>
+	 <li  style="background-color:#fff;">
+	 {dede:type typeid=2}
+		 <a target="_blank" href="[field:typelink/]">
+			<div style="background:url(/images/banner2_01.jpg) top center no-repeat; width:100%; height:76px;"></div>
+			<div style="background:url(/images/banner2_02.jpg) top center no-repeat; width:100%; height:99px;"></div>
+			<div style="background:url(/images/banner2_03.jpg) top center no-repeat; width:100%; height:76px;"></div>
+			<div style="background:url(/images/banner2_04.jpg) top center no-repeat; width:100%; height:99px;"></div>
+		 </a>
+	{/dede:type}
+	 </li>
+    </ul>
+  </div>
+    <div class="hd">
+    <ul>
+	  <li></li>
+    </ul>
+  </div>
+</div>
+
+<div class="dh">
+  <ul class="w1000 t_align">
+    <li><a href="/" target="_blank">网站首页</a></li>
+    <li>{dede:type typeid='2'}<a href="[field:typeurl/]" target="_blank">医院介绍</a>{/dede:type}</li>
+    <li>{dede:type typeid='9'}<a href="[field:typeurl/]" target="_blank">专家团队</a>{/dede:type}</li>
+    <li>{dede:type typeid='10'}<a href="[field:typeurl/]" target="_blank">特色疗法</a>{/dede:type}</li>
+    <li>{dede:type typeid='7'}<a href="[field:typeurl/]" target="_blank">尖端设备</a>{/dede:type}</li>
+    <li>{dede:type typeid='11'}<a href="[field:typeurl/]" target="_blank">康复案例</a>{/dede:type}</li>
+    <li>{dede:type typeid='3'}<a href="[field:typeurl/]" target="_blank">医院新闻</a>{/dede:type}</li>
+    <li>{dede:type typeid='4'}<a href="[field:typeurl/]" target="_blank">媒体报道</a>{/dede:type}</li>
+    <li><a href="/swt/" target="_blank">网上预约</a></li>
+    <li><a href="/swt/" target="_blank">联系我们</a></li>
+    <li class="nomenu_r">{dede:type typeid='8'}<a href="[field:typeurl/]" target="_blank">来院路线</a>{/dede:type}</li>
+  </ul>
+</div>
+<div class="bs_bg">
+<div class="w1000 t_align" style="height:110px;">
+  <div class="submenu_l"></div>
+  <div class="submenu_con"> 
+  {dede:type row="5"}
+		<div class="munu_box">
+		  <dl>
+			<span>[field:title/]</span>
+			<!--<dt><a href="[field:typelink/]" target="_blank">{dede:field.seotitle /}</a></dt>
+			{dede:arclist flag='h' row='1' titlelen='24'}
+			<dd><a href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]">[field:title/]</a></dd>
+			{/dede:arclist} -->
+		   <!-- 
+			{dede:arclist  row='1' titlelen='24' orderby='weight' noflag='h'  }
+			<dd><a href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]">[field:title/]</a></dd>
+			{/dede:arclist} -->
+		  </dl>
+		</div>
+    {/dede:type} </div>
+  <div class="submenu_r"></div>
+</div>
+<div class="yytg w980">
+  <div class="tgl"><img src="/images/tonggao.jpg"/></div>
+  <div class="tgr">
+    <ul>
+      <li>风湿免疫疾病权威专家坐诊:胡瀛洲院长；成都西南骨科医院就诊时间: 8:30—17:30；咨询热线：<font style="color:#FF0000; font-weight:bold">028-85596750 </font>；专家QQ:<font style="color:#FF0000; font-weight:bold">800060657</font></li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript">
+jQuery(".sousuo").slide({mainCell:".float_l ul",effect:"topLoop",easing:"linear",delayTime:500,autoPlay:true});
+jQuery(".banner").slide({mainCell:".bannerhd ul",effect:"fold",autoPlay:true,interTime:5000});
+jQuery(".yytg").slide({mainCell:".tgr ul",effect:"leftMarquee",autoPlay:true,interTime:50});
+jQuery(".main_banner").slide({mainCell:".fhdp ul",autoPlay:true});
+</script>

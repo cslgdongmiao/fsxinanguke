@@ -1,0 +1,1 @@
+<td width="34%"><a href="[field:arcurl/]" target="_blank">[field:title/]</a></td>

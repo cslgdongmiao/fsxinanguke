@@ -1,0 +1,2 @@
+<h2><a href="[field:arcurl/]" target="_blank">3.生物免疫平衡多元疗法的六大康复工程</a></h2>
+        <p>对风湿免疫疾病的治疗，净骨疗法无愧当前最佳的疗法。马克思哲学告诉我们，世上没有任何方法是万...<a href="[field:arcurl/]" target="_blank" style="color:#F00">[详细]</a></p>

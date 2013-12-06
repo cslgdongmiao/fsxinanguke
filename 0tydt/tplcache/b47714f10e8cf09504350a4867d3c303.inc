@@ -1,0 +1,1 @@
+<li><a href="[field:typeurl/]" target="_blank"><img src="/images/right/list_21.png" /></a></li>

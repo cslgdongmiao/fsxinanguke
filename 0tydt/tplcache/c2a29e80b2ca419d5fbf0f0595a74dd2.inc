@@ -1,0 +1,1 @@
+<p class="p1">成都西南骨科医院是经卫生主管部门批准建立一家以高技术人才为核心，以微创骨科为主导...<a href="[field:typelink/]" target='_blank'>[详细]</a></p>

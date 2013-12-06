@@ -1,0 +1,1 @@
+<a href="/zt/[field:typeurl/]" target="_blank"><img src="/images/dggc_168.png" width="37" height="13" /></a>

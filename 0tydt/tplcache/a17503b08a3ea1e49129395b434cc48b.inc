@@ -1,0 +1,1 @@
+<span><font>[field:title/]</font>院长</span>简介：胡瀛洲现任为成都西南骨科医院院长，从事骨科临床、教学、科研、及康复工作四十余年，...<a href="[field:arcurl/]" target="_blank">[查看详细]</a>

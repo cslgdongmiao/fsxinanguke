@@ -1,0 +1,1 @@
+<dd><a href="[field:typeurl/]" target="_blank"><img src="/images/tslf_right.jpeg" /></a></dd>

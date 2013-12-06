@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" target="_blank">²é¿´ÏêÇé&gt;&gt;</a>

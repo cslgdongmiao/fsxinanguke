@@ -1,0 +1,139 @@
+@charset "gb2312";
+
+div,form,img,ul,ol,li,dl,dt,dd,p {margin: 0; padding: 0; border: 0; }
+li,dl{list-style-type:none;}
+h1,h2,h3,h4,h5,h6 { font-size:12px;text-align:center;margin:0; padding:0;}
+/* 鍏叡鏍峰紡涓殑榛樿瓒呴摼鎺?*/
+a{ text-decoration:none;}
+a:hover{text-decoration:underline;}
+/* 公共样式中文字样式  */
+.fB {font-weight: bold;}
+.f12px{ font-size:12px;}
+.f14px{ font-size:14px;}
+.f16px{ font-size:16px;}
+
+.clear{clear:both; overflow:hidden;}
+.left{float:left}
+
+
+
+
+.right{float:right}
+
+
+
+#list_right{ width:280px;  float:right; overflow:hidden}
+#list_right_con1{ width:278px; height:244px; border:solid #ccc 1px;}
+#list_right_con1 ul{ width:278px; height:34px; background:url(../images/list_14.jpg) no-repeat; }
+#list_right_con1 h3{ line-height:34px; font-size:14px; font-weight:bold; text-align:left; padding-left:40px; color:#FFF; float:left}
+#list_right_con1 li{ float:right; padding:12px 9px 0 0;}
+#list_right_con12{ width:254px; height:200px; padding:15px 0 0 12px; }
+#list_right_con12 dt{ width:254px; height:116px;}
+#list_right_con12 dd{ width:254px; height:70px; line-height:24px; font-size:12px; color:#333; text-indent:20px;}
+#list_right_con12 a{ color:#FF0000; text-decoration:none;}
+#list_right_con12 a:hover{ color:#FF0000; text-decoration:underline;}
+
+
+#list_right_con22{ border:solid #ccc 1px; width:278px; height:239px; margin:10px 0; background:url(../images/list_bj21.png);}
+#list_right_con22 dt{ width:257px; padding:9px 0 0 5px;}
+#list_right_con22 dd{ padding-left:13px; float:left}
+
+
+#list_right_con0{ width:278px; height:362px; border:solid #ccc 1px; margin:10px 0}
+#list_right_con0 ul{ width:278px; height:34px; background:url(../images/list_14.jpg) no-repeat; }
+#list_right_con0 h3{ line-height:34px; font-size:14px; font-weight:bold; text-align:left; padding-left:40px; color:#FFF; float:left}
+#list_right_con0 li{ float:right; padding:12px 9px 0 0;}
+#list_right_con10{ width:254px; height:200px; padding:15px 0 0 12px; }
+#list_right_con10 dt{ width:254px; height:116px;}
+#list_right_con10 dd{ width:254px; height:70px; line-height:24px; font-size:12px; color:#333; text-indent:20px;}
+#list_right_con10 a{ color:#FF0000; text-decoration:none;}
+#list_right_con10 a:hover{ color:#FF0000; text-decoration:underline;}
+
+#yygk_nr1 {
+	width:278px;
+	height:150px;
+	
+}
+#yygk_nr1 ul {
+	width:278px;
+	height:34px;
+	background:url(../images/list_14.jpg) no-repeat;
+}
+#yygk_nr1 h3 {
+	line-height:34px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding-left:40px;
+	color:#FFF;
+	float:left
+}
+#yygk_nr1 li {
+	float:right;
+	padding:12px 9px 0 0;
+}
+#yygk_nr1 dl {
+	padding-left:20px;
+	padding-top:10px
+}
+#yygk_nr1 dt{ float:left; padding-top:30px;}
+#yygk_nr1 dd{ width:196px; float:left; margin:0 12px 0 12px; }
+
+
+#list_right_con2{ border:solid #ccc 1px; width:278px; height:300px; margin:10px 0;}
+#list_right_con2 dt{ width:257px; padding:9px 0 0 5px;}
+#list_right_con2 dd{ padding-left:40px; float:left}
+
+
+
+.gdgd{ background:url(../images/list_bt25.jpg); width:278px; height:34px;}
+.gdgd p{line-height: 34px;font-size: 14px;font-weight: bold;text-align: left;padding-left: 40px;color: #FFF;float: left;}
+.tx{ font-size:12px; padding:15px 0 5px 5px; line-height:20px}
+.zx { margin:0 auto; text-align:center;}
+.gdmd{ margin-top:5px;}
+
+#list_right_con2 li{ height:30px;border-bottom: 1px dashed #b2b2b2; line-height:26px; width:260px; margin:0 auto}
+#list_right_con2 span{ margin-left:20px; font-size:12px; float:left; width:50px}
+
+#list_right_con3{  border:solid #ccc 1px; width:278px; height:325px; margin-top: 10px;}
+#list_right_con3 ul{ width:278px; height:34px; background:url(../images/list_bt25.jpg) no-repeat; padding-bottom:15px;}
+#list_right_con3 p{ line-height:34px; font-size:14px; font-weight:bold; text-align:left; padding-left:40px; color:#FFF; float:left}
+#list_right_con3 li{float:right; padding:12px 9px 0 0;}
+#list_right_con31{ width:270px; margin:0 0 0 10px; }
+#list_right_con31 dl{ width:270px; height:117px; margin-bottom:20px;}
+#list_right_con31 dt{ width:102px; height:117px; float:left}
+#list_right_con31 dd{ width:155px; height:117px; padding-left:10px; float:left}
+#list_right_con31 b{ height:14px; line-height:14px; font-size:12px; font-weight:bold; color:#0058a3;}
+#list_right_con31 h4{ width:148px; height:75px; font-size:12px; text-align:left; line-height:24px; font-weight:normal; padding-top:5px;}
+#list_right_con31 sapn{ width:66px; height:22px;  float:left}
+#list_right_con31 a{ color:#0058a3; text-decoration:none}
+#list_right_con31 a:hover{ color:#0058a3; text-decoration: underline}
+
+#list_right_con4{  border:solid #ccc 1px; width:278px; height:330px; margin:10px auto;}
+#list_right_con4 ul{ width:278px; height:34px; background:url(../images/list_bt25.jpg) no-repeat; padding-bottom:15px;}
+#list_right_con4 p{ line-height:34px; font-size:14px; font-weight:bold; text-align:left; padding-left:40px; color:#FFF; float:left}
+#list_right_con4 li{float:right; padding:12px 9px 0 0;}
+#list_right_con4 dl{ width:258px; height:270px; padding:0 0 0 10px; }
+#list_right_con4 dd{ width:258px; height:118px;}
+#list_right_con4 dt{ height:16px; line-height:16px; width:260px; background:url(../images/list_lf02.jpg) no-repeat; margin-top:13px;font-size:14px;}
+#list_right_con4 span{ font-size:13px; padding-top:5px; padding-left:5px; padding-right:15px; color:#FFF; font-weight:bold}
+#list_right_con4 a{ color:#333; text-decoration:none}
+#list_right_con4 a:hover{color:#0058a3; text-decoration:underline}
+
+#list_right_con5{  border:solid #ccc 1px; width:278px; height:226px;}
+#list_right_con5 dl{ width:278px; height:34px; background:url(../images/list_bt25.jpg) no-repeat; padding-bottom:15px;}
+#list_right_con5 dt{ line-height:34px; font-size:14px; font-weight:bold; text-align:left; padding-left:40px; color:#FFF; float:left}
+#list_right_con5 dd{float:right; padding:12px 9px 0 0;}
+#list_right_con5 ul{ width:260px; height:180px; padding:0 0 0 14px;}
+#list_right_con5 li{ width:127px; height:35px; float:left; padding:0 4px 8px 0; background:url(../images/list_jyzn01.jpg) no-repeat; text-align:center; line-height:35px; font-size:12px; color:#0058a3; font-weight:bold;}
+#list_right_con5 a{color:#0058a3; text-decoration:none}
+#list_right_con5 a:hover{color:#0058a3; text-decoration:underline}
+
+#list_right_con6{  border:solid #ccc 1px; width:278px; height:291px; margin:10px auto;}
+#list_right_con6 ul{ width:278px; height:34px; background:url(../images/list_bt25.jpg) no-repeat; padding-bottom:15px;}
+#list_right_con6 p{ line-height:34px; font-size:14px; font-weight:bold; text-align:left; padding-left:40px; color:#FFF; float:left}
+#list_right_con6 li{float:right; padding:12px 9px 0 0;}
+#list_right_con6 dl{width:254px; height:235px; padding: 0 10px 0 10px;}
+#list_right_con6 dt{ width:254px; height:169px;}
+#list_right_con6 dd{font-size:13px; padding-top:10px; line-height:16px;}
+#list_right_con6 span{ font-size:14px; color:#F00}

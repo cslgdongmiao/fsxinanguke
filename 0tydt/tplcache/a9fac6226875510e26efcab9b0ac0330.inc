@@ -1,0 +1,1 @@
+<li><span><a target="_blank" title="[field:fulltitle/]" href="[field:arcurl/]">[field:title/]</a></span>[ря╫Б╬Ж]</li>

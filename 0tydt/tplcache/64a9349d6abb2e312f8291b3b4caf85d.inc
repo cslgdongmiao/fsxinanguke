@@ -1,0 +1,1 @@
+<li><a href="[field:typeurl/]"><img src="/images/ditu1.jpg" width="300" height="145"></a></li>

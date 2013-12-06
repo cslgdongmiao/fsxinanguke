@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" target="_blank" onmouseover="setTab('news',1,2)" id="news1" class="hover">医院新闻</a>

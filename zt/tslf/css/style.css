@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+body{font-size:12px;background:#E2FBFF url(../images/bj.png) repeat-y center 0;margin:0px;padding:0px;}
+
+div,ul,li,dl,dt,dd,ol,img,h1,h2,h3,h4,h5,h6,form,input,p{margin:0px;padding:0px;}
+
+form,input,{border:0;}
+
+li,ol,ul{list-style-type:none;}
+
+img{vertical-align:top;border:0;}
+
+h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:normal;}
+
+.fb{font-weight:bold;}
+
+.f14{font-size:14px;}
+
+.f16{font-size:16px;}
+
+.left{float:left;}
+
+.right{float:right;}
+
+.clear{clear:both;width:0px;height:0px;line-height:0px;font-size:0;overflow:hidden;}
+
+
+
+a{color:#666;text-decoration:none;}
+
+a:hover{text-decoration:underline;}
+
+
+
+a{color:#666;text-decoration:none;}
+
+a:hover{text-decoration:none;}
+
+
+
+
+
+.top{width:980px;height:77px;margin:0 auto;background:url(../images/top_bj.png) repeat-x;}
+
+.banner{width:100%;height:455px;background:#ABE3FE}
+
+.banner1240{width:1240px; margin:0 auto;height:455px;}
+
+.liaf{width:940px;height:302px;}
+
+
+
+.nav_bj{width:100%;height:70px;background:url(../images/daohan.png) repeat-x;}
+
+.nav{width:1240px;height:70px;background:url(../images/nav.png) no-repeat; margin:0 auto;}
+
+.nav_930{width:930px;height:52px; margin:0 auto;}
+
+.nav_930 li{width:93px;height:52px;line-height:52px;float:left; text-align:center;font-size:14px;font-weight:bold;}
+
+.nav_930 li a{color:#fff;width:93px;height:52px; display:block;}
+
+.diyip{width:960px;height:266px;margin:0 auto;}
+
+.diyip_title{width:960px;height:60px;background:url(../images/biaoti.png) no-repeat;}
+
+.diyip_text{width:913px;height:206px;background:url(../images/biaotbj.png) no-repeat 0px 27px;padding-left:47px;}
+
+.diyip_text dt{width:201px;height:160px;float:left; margin-right:31px;}
+
+.diyip_text dd{width:646px;height:179px;float:left;line-height:22px; text-indent:25px;line-height:29px;}
+
+
+
+.quew{width:960px;height:262px; margin:0 auto;background:url(../images/biaoti1.png) no-repeat;padding-top:58px;}
+
+.quew_text{width:896px;height:264px;background:url(../images/biaotbj.png) no-repeat 0px 76px;padding:0 32px 0 32px;}
+
+.quew_text dt{width:189px;height:229px;float:right;}
+
+.quew_text dd{width:650px;height:180px;padding-top:16px;line-height:31px;font-size:13px;}
+
+.quew_text dd p{ text-indent:25px;color:#333;}
+
+.banner2{width:940px;height:170px; margin:0 auto;}
+
+
+
+
+.tixi_fl{float:left;}
+
+#tixi_flash{width:323px;height:100%;}
+
+#tixi_des{width:595px;height:100%;}
+
+.tixi{width:927px;height:360px; margin:0 auto;}
+
+.tixi_title{width:927px;height:50px;background:url(../images/biaoti2.png) no-repeat;}
+
+.tixi_text{width:927px;height:291px; margin-top:19px;background:url(../images/dixian.png) no-repeat 0px 271px;}
+
+.tixi_text dt{width:307px;float:left;background:url(../images/sp.png) no-repeat; margin-right:16px; display:inline;}   
+
+.tixi_text dd{width:586px;height:124px;float:left;background:url(../images/llll.png) no-repeat;padding-top:16px;line-height:29px;color:#2A2A2A;}
+
+
+
+.fens{width:590px;height:312px;margin:0 auto;background:url(../images/liaofa.png) no-repeat;padding-left:350px;}
+
+.fens li{width:554px;height:67px;color:#fff; margin-bottom:5px;}
+
+.fens li h2{line-height:38px;font-size:16px;font-weight:bold;}
+
+
+
+.duibi{width:980px;height:596px; margin:0 auto;}
+
+.duibi_title{width:896px;height:72px;background:url(../images/biaoti3.png) no-repeat; padding-right:84px;}
+
+.duibi_text{width:940px;height:510px; margin:10px auto 0 auto;background:url(../images/dixian.png) no-repeat 0px 490px;}
+
+.duibi_text p{width:940px;height:510px;background:url(../images/fuzy.png) no-repeat;}
+
+
+
+.zhuaj{width:980px;height:520px; margin:0 auto;}
+
+.zhuaj_title{width:896px;height:72px;background:url(../images/biaoti4.png) no-repeat;padding-right:84px;}
+
+.zhuaj_text{width:940px;height:435px; margin:12px auto 0 auto;background:url(../images/biaoti4.png) no-repeat;background:url(../images/dixian.png) no-repeat 0px 419px;}
+
+.zj_left{width:471px;height:414px;float:left;border-right:1px dashed #61625D;}
+
+.left_top{width:471px;height:200px; margin-bottom:10px;}
+
+.left_bottom{width:460px;height:177px;background:url(../images/bjj.png)}
+
+.left_bottom li{width:134px;height:176px;float:left;}
+
+
+
+.zj_right{width:458px;height:404px;float:right;}
+
+.zj_left dt{width:155px;height:200px; margin-right:6px;float:left; display:inline;}
+
+.left_top dd{width:300px;height:200px;float:left;background:url(../images/ry.png) no-repeat 0 136px;}
+
+.left_top dd h2{width:300px;height:24px;line-height:24px;font-size:14px;font-weight:bold;background:#2185B7;color:#fff; text-indent:14px;}
+
+.left_top dd p{line-height:25px;color:#303030;}
+
+.left_top dd p a{color:#FE0000;}
+
+
+
+.zjl_title{width:448px;height:39px;background:url(../images/wvj.png) repeat-x;padding:7px 0 0 10px;}
+
+.zjl_title li{width:85px;height:29px;line-height:29px;float:left; margin-right:4px; text-align:center; display:inline;font-size:14px;font-weight:bold; }
+
+.zjl_title li a{display:block;width:85px;height:29px;}
+
+.zjl_title li a:hover,.zjl_title li a.hover{color:#fff;background:url(../images/bjjjj.png) no-repeat;}
+
+
+
+.zjl_text{width:448px;height:360px;background:#F7F7ED url(../images/kuaisu.png) no-repeat;}
+
+.p1{width:167px;height:14px;margin:0 0 19px 256px;display:block;color:#222;padding-top:17px;}
+
+.a1{line-height:14px;float:left;}
+
+.p2{width:330px;height:31px; margin-left:14px;}
+
+.a2{line-height:22px;float:left;}
+
+.a3{float:left; margin:3px; display:inline;}
+
+.n{width:36px;line-height:22px; margin:0 0 0 70px;float:left;}
+
+.titi{width:82px;height:20px;border:1px solid #7E9EB7;float:left; text-indent:5px;}
+
+.p3{width:400px;height:32px;line-height:22px;margin-left:14px;}
+
+.a4{width:324px;height:20px;border:1px solid #7E9EB7;float:left; text-indent:5px;}
+
+.p4{width:400px;line-height:22px;margin-left:14px;}
+
+.a5{width:324px;float:left;height:181px;}
+
+.p5{width:300px;height:24px;margin-left:70px;}
+
+.a6{width:93px;height:22px;border:1px solid #D4D6D5;float:left; margin-right:8px; display:inline;}
+
+
+
+.jianz{width:980px;height:443px; margin:0 auto;background:url(../images/dixian.png) no-repeat 10px 424px;}
+
+.jiaz_title{width:896px;height:72px;background:url(../images/kafu.png) no-repeat 0 6px;padding-right:84px;}
+
+.jiaz_text{width:960px; margin:0 auto;}
+
+.wenx{width:922px;height:261px; margin:0 auto;background:url(../images/xinw.png) no-repeat;padding-top:37px;padding-left:19px;}
+
+.wenx li{width:320px;height:55px;float:left;padding:32px 0 0 150px;display:inline;}
+
+
+
+
+
+.wes{width:871px;height:108px;border:1px solid #C2C3C8; margin:0 auto;background:#F2F6F9 url(../images/weisb.png) no-repeat 0 25px; margin-bottom:6px;padding:85px 0 0 85px;}
+
+.wes a{ margin-right:16px; display:block;float:left; display:inline;}
+
+.banq_nav{width:100%;height:82px;background:url(../images/wvjbj.png) repeat-x;}
+
+.nav_980{width:960px;height:78px;background:url(../images/banq_bj.png) repeat-x; margin:0 auto;padding:4px 0 0 20px;line-height:51px;font-size:14px;font-weight:bold;color:#fff;}
+
+.nav_980 a{color:#fff; margin:0 17px}
+
+
+
+.banq{width:100%;height:147px;background:url(../images/banqbj.png) repeat-x;}
+
+.banq_960{width:960px;height:147px; margin:0 auto;}
+
+.banq_logo{width:333px;height:147px;padding:0 0 0 73px;float:left;}
+
+.banq_diz{width:500px;height:110px;padding-top:18px;float:left;line-height:29px;color:#fff;}
+
+
+
+.p4 p {
+    color: #FF0000;
+    display: block;
+    height: 20px;
+    line-height: 30px;
+    padding: 5px 10px;
+}
+
+
+.p4 label {
+    color: #000000;
+    height: 25px;
+    line-height: 25px;
+    padding-right: 10px;
+    text-align: right;
+    width: 70px;
+}
+
+.p4 p input.guahaoa {
+    background: url("../images/tijia.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 24px;
+    margin-left:150px;
+    width: 74px;}
+	
+.xw {margin-left: 10px; margin-bottom: 20px; float:left; width:265px;}	

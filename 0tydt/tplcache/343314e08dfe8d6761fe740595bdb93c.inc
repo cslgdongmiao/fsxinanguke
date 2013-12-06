@@ -1,0 +1,2 @@
+<h2><a href="[field:arcurl/]"  target="_blank">6.生物免疫平衡多元疗法治疗五大流程</a></h2>
+        <p>优势一、立足全面检查，精确找准病因 风湿病的有效治疗取决于全面客观的诊断，科学全面的检...<a href="[field:arcurl/]"  target="_blank"style="color:#F00">[详细]</a></p>

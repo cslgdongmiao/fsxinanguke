@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" target="_blank">医院新闻</a>

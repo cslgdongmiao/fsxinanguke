@@ -1,0 +1,67 @@
+*{ margin: 0; padding: 0;}
+a{text-decoration:  none; color: #666;}
+a:hover{color: #bc0000;}
+body{ font-size: 14px; color: #666666;}
+img{ border: 0;}
+ul li{list-style-type: none;}
+#banner{ margin:0 auto; text-align: center; height:350px; overflow: hidden; background: url(../images/banner.png) no-repeat center 0; }
+#bigDiv{ margin: 0 auto; text-align: center; width:990px; }
+.part1,.part2,.part3,.part4,.part5,.part6{ clear: both;}
+.part1_nr,.part2_nr,.part3_nr,.part4_nr,.part5_nr,.part6_nr{ background: url(../images/nr_bg.png) repeat-y;  text-align: left;   }
+.part1_nr p,.part2_nr p,.part3_nr p ,.part6_nr p{ line-height: 30px; padding-top: 10px; margin: 0 30px 00px 30px;  text-indent: 28px; }
+.part1_nr p span,.part2_nr p span ,.part3_nr p span ,.part6_nr p span{  color: #f3762d; font-weight: bold; }
+
+.part1{ position: relative;}
+.part1 h3.title2{margin-top: 30px;background: url(../images/title_bg.png) no-repeat; height: 40px;}
+.part1 h3.title2 img{ float: left; position: absolute; left: 20px; top: -22px;}
+.part1 h3.title2 a{ float: right; background:url(../images/zx_but.png) no-repeat left center; width: 108px; height: 29px; margin: 6px 20px 0 0; text-indent: -9999px; display: block; }
+.part1_nr{height: 580px;}
+
+.part1_nr img{ margin:30px 0 40px 108px;}
+.bottom{ background:url(../images/bottom_bg.png) no-repeat; height: 15px;width: 990px; clear: both;}
+
+h3.title{ background: url(../images/title_bg.png) no-repeat;  height: 40px;}
+h3.title img{ float: left; margin:6px 0 0 25px; }
+h3.title a{ float: right; background:url(../images/zx_but.png) no-repeat left center; width: 108px; height: 29px; margin: 6px 20px 0 0; text-indent: -9999px; display: block; }
+
+.part2_nr{ height:555px;   }
+.part2_nr dl{width: 480px; float: left; margin-left: 10px; margin-top: 15px; background: url(../images/zt_ydy_08.jpg) no-repeat right top;}
+.part2_nr dl dt{ text-align: center;}
+.part2_nr dl dd{ line-height: 30px; margin: 0 20px 0 20px;}
+.part2_nr dl dd span{ font-weight: bold; text-align: center; display: block; color: #bc0000;}
+
+.part3_nr{ height: 505px;}
+.part3_img{ margin-left: 18px;}
+.part3_img img{ width: 226px; height: 127px; float: left; display: block;  margin-left: 10px; padding-bottom: 40px;}
+/* jQuery jcImgScroll css */
+.jcImgScroll { position:relative; height:254px; width: 618px; margin: 0px 0 40px 190px; padding-top: 40px; }
+.jcImgScroll li { border:1px solid #ccc; }
+.jcImgScroll li a { background:#fff; display:block; height:254px;  }
+.jcImgScroll li.loading a { background:#fff url(img/loading.gif) no-repeat center center;} 
+.jcImgScroll li img,.jcImgScroll li,.jcImgScroll em,.jcImgScroll dl { display:none; border:0 none;}
+.jcImgScroll em.sPrev { background:url(../images/arrow-left.png) no-repeat left center; position:absolute; left:20px; top:20px; z-index:3; }
+.jcImgScroll em.sNext { background:url(../images/arrow-right.png) no-repeat right center;}
+.jcImgScroll dl dd { background:url(../images/NumBtn.png) no-repeat 0 bottom; text-indent:-9em; }
+.jcImgScroll dl dd:hover,.jcImgScroll dl dd.curr { background-position:0 0; }
+
+.part4_nr img{ margin-left: 10px;clear: both;}
+.button_ul{clear: both; height: 150px;  width: 970px;}
+.button_ul ul{ margin-left: 7px; margin-top: 10px;}
+.button_ul ul li{ float: left; margin-left: 28px; margin-bottom: 10px; }
+
+.part5_nr{ height: 350px; clear: both;}
+.p5_zj{ height: 342px; width: 485px; float: left; }
+.p5_zj img{ height: 346px; display: block;width: 220px; float: left;margin-left: 10px;}
+.p5_zj ul{ float: left; width:245px; color: #996600;  }
+.p5_zj ul li{ margin-top: 20px;}
+.p5_zj ul li.zj_name dl dt{ border-bottom: 1px dashed #d0c16c; height:31px; line-height: 31px; color: #f2560d; font-weight: bold; margin-bottom: 7px; }
+.p5_zj ul li.zj_name dl dt span{color: #663300; font-size: 16px;}
+.p5_zj ul li.zj_name dl dd{ background: url(../images/ico_xx.png) no-repeat left center; padding-left: 20px; line-height:24px; }
+.p5_zj ul li.zj_js{}
+.p5_zj ul li.zj_js dl dt img{ width:253px; height: 18px; margin-left: 0px;margin-bottom: 7px; }
+.p5_zj ul li.zj_js dl dd{ margin-bottom: 10px;}
+.p5_zj ul li.zj_js dl dd p{ text-indent: 24px; line-height: 24px;}
+.p5_zj ul li.zj_js dl dd p a{color: #a00000;}
+.zj_js dl dd a img{ display: block; background: red; width: 83px; height: 30px;}
+
+.part6_nr img{ padding-left: 105px; display: block; height:265px; width: 741px; }

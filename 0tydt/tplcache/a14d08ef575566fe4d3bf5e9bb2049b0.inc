@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" target="_blank">就医指南</a>

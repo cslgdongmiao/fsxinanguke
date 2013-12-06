@@ -1,0 +1,1 @@
+<dd style="line-height: 25px;width: 250px;text-align: left;margin-left: 17px;text-indent: 24px;"> [field:content function='cn_substr(Html2Text(@me),68)'/]...<a href="/yygk/" target="_blank">¡¾ÏêÏ¸¡¿</a></dd>

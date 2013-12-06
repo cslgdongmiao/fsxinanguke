@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" title="[field:fulltitle/]" target="_blank">类风湿性关节炎</a>

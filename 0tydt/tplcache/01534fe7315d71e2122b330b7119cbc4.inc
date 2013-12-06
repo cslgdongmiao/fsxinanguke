@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" target="_blank">р╫т╨╣ьм╪</a>

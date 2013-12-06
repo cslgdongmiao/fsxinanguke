@@ -1,0 +1,1 @@
+<dt><img src='{dede:field name="litpic"

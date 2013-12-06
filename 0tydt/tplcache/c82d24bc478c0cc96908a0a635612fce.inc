@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" title="[field:fulltitle/]" target="_blank">Ç¿Ö±ÐÔ¼¹ÖùÑ×Î£º¦</a>

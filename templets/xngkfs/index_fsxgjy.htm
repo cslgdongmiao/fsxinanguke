@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" href="/css/public.css" type="text/css" />
+<link rel="stylesheet" href="/css/index_bz.css" type="text/css" />
+<script type="text/javascript" src="/js/jquery.min_link.js"></script>
+<SCRIPT src="/js/ScrollPics.js" type="text/javascript"></SCRIPT>
+<SCRIPT src="/js/ma.js" type="text/javascript"></SCRIPT><script src="/js/common.js" type="text/javascript"></script><base target="_blank"></head><body>
+{dede:include filename="header_n.htm"/}<!--头部--><div class="mn">
+  <div class="cl"></div>
+  <div class="part1">
+    <div class="p1_z z"> 
+      <!--幻灯-->      <div class="mtbd_hd"> 
+       <!-----------图片切换  begin----------->
+        <embed src="http://ziyuan.fsb006.com/video/player_tu.swf" width="294" height="255" name="wmode" value="opaque" wmode="opaque" allowscriptaccess="always" allowfullscreen="true" flashvars="file=http://ziyuan.fsb006.com/video/xinan/ydy/ydy1.flv&image=http://ziyuan.fsb006.com/video/xinan/ydy/ydy1.jpg"> 
+
+        <!-----------图片切换  end-----------> 
+      </div>
+      <!--幻灯部分end-->
+
+      <ul class="hd_b">        {dede:arclist row='6' titlelen='30' orderby='hot'}       <li>·<a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>        {/dede:arclist}
+      </ul>
+    </div>    <div class="p1_m z">      <div class="p1m_1">
+        <h1>{dede:field.title/}</h1>
+        <p class="gr">{dede:channel type='son' row='6'} <a href="[field:typelink /]" target="_blank">[field:typename/]</a>|{/dede:channel}</p>
+      </div>
+      <div class="p1m_2 cl"> {dede:arclist row='1' flag='h' infolen='100' typeid='39'}
+
+        <h3><b><a  href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]">[field:title/]</a></b></h3>
+        <p>[field:infos/]...<a  href="[field:arcurl/]" target="_blank" class="red">[详情]</a></p>        {/dede:arclist} </div>
+      <ul class="p1m_3" >      {dede:arclist row='7' }       <li><a  href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]">[field:fulltitle/]</a></li>
+        {/dede:arclist}
+      </ul>
+    </div>
+    <!--医院简介-->
+
+    <div class="p1_y y">
+      <div class="y_tianjia"> <img width="246" height="90" src="/images/ys.jpg" class="p1_y_im1" />
+	    {dede:type typeid=2}
+        <p class="p1">成都西南骨科医院是经卫生主管部门批准建立一家以高技术人才为核心，以微创骨科为主导...<a href="[field:typelink/]" target='_blank'>[详细]</a></p>
+		{/dede:type}
+        <p class="p2"> 
+		{dede:type typeid=2}
+		<a href="[field:typelink/] " target="_blank"><img src="/images/fs_1.jpg" alt='QQ咨询' /></a>
+		{/dede:type}
+		<a href="/swt/ " target="_blank"><img src="/images/fs_2.jpg" alt='免费咨询' /></a>
+		{dede:type typeid=9}
+		<a href="[field:typelink/] "><img src="/images/fs_3.jpg" alt='专家团队' /></a>
+		{/dede:type}
+		{dede:type typeid=8}
+		<a href="[field:typelink/]" target="_blank"><img src="/images/fs_4.jpg" alt='来院地图' /></a>
+		{/dede:type}
+		<img src="/images/gc_52.jpg" /></p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="ad_2"><a href="/swt/" target='_blank'><img name="gc_83" src="/images/ad.gif" width="980" height="110" border="0" alt="" /></a></div>
+
+</div>
+
+<div class="w980 margin">
+
+  <div class="part4"> {dede:channelartlist row="6" type="son"}
+
+    <div class="pd_jbfl z">
+
+      <div class="p4z_tt tb4_">
+
+        <h3 class="wt z"><a href="{dede:field name='typeurl'/}">{dede:field.seotitle /}</a></h3>
+
+      </div>
+
+      <ul>
+
+        <li class="li2">{dede:arclist row='1' titlelen='20' infolen='100' flag=''} <a href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]"><img src="[field:litpic/]" /></a><strong> <a  href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]">[field:title/]</a></strong><br />
+
+          [field:infos/]... <a  href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]" class="red">详情>></a> {/dede:arclist} </li>
+
+        {dede:arclist row='4' titlelen='60' flag=''}
+
+        <li> <a  href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]">[field:title/]</a> </li>
+
+        {/dede:arclist}
+
+      </ul>
+
+    </div>
+
+    {/dede:channelartlist} </div>
+
+  <div class="part5"> 
+   <div class="cmain_right4">
+
+  <div class="cmain_right3_1"><em><a href="/kfal/" target="_blank">康复病例</a></em><a href="/kfal/" target="_blank">更多>></a></div>
+
+  <div class="cmain_right4_1">
+
+    <div class="cmain_right4_1_01">	{dede:arclist flag='h' row='1' titlelen="16" infolen='60' typeid='58' limit='0,1'} 		<a href="[field:arcurl/]"  title="[field:fulltitle/]" target="_blank" >		<img src="[field:picname/]" width="102" height="91" alt="[field:fulltitle/]" />		</a>
+      <h1><a href="[field:arcurl/]"  title="[field:fulltitle/]" target="_blank" >[field:title/]</a></h1>
+
+      <p>[field:infos/]……<a href="[field:arcurl/]" target="_blank" class="red" >[详细]</a></p>
+
+      {/dede:arclist} </div>
+
+    <div class="cmain_right4_1_02">
+
+      <ul>
+
+        {dede:arclist row="6" titlelen="30" typeid='58' limit='1,6'}
+
+        <li><a href="[field:arcurl/]"  title="[field:fulltitle/]" target="_blank">[field:title/]</a></li>
+
+        {/dede:arclist}
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+    <!--kfbl-->
+
+    <div class="p5_y">
+
+      <div class="p5y_tt">
+
+        <h2 class="gr">专家问答</h2>
+
+      </div>
+
+      <ul>
+
+        {dede:arclist row='4' titlelen='30' typeid='61' orderby='weight'}
+
+        <li><span><a target="_blank" title="[field:fulltitle/]" href="[field:arcurl/]">[field:title/]</a></span>[已解决]</li>
+
+        {/dede:arclist}
+
+      </ul>
+
+      <div class="p5y_fs"><a href="/swt/" target=_blank><img src="/images/gc_125.jpg" alt='QQ咨询' /></a></div>
+
+    </div>
+
+    
+
+    <!--专家问答-->
+
+    
+
+    <div class="jzzn">
+ {dede:type typeid=8}
+      <h1><a href="[field:typelink/]">就诊指南</a><span> <a target="_blank" href="[field:typelink/]"><img width="37" height="13" src="/images/dggc_168.png"></a> </span></h1>
+      <div class="map">
+	  <a target="_blank " href="[field:typelink/]"> <img src="/images/ditu1.jpg" width="216" height="132"></a>
+
+        <p><strong>医院地址：</strong>成都市武侯大道双楠段38号<br>
+
+          <strong>咨询电话：</strong>028-85596750<br>
+
+          <em>请提前网络咨询预约（无假日医院）</em></p>
+
+      </div>
+
+    </div>
+{/dede:type}
+
+  </div>
+
+  
+
+  <!--part_5_end--> 
+
+  
+
+  <!--权威专家-->
+
+  
+
+  <div style="clear:both"></div>
+
+  <div class="part3 cl mg10">
+
+    <div class="p3_title"></div>
+
+    <div id=featureContainer>
+
+      <div id=feature>
+
+        <div id=block>
+
+          <div id=botton-scroll>
+
+            <ul class=featureUL id="arrC2">
+
+              {dede:arclist addfields='zhicheng' channelid='17' titlelen='20' infolen='98' typeid='9'}
+
+              <li class=featureBox>
+
+                <div class=box><img src="/images/gc_67.gif" class="img_1"/><a href='[field:arcurl/]'><img src='[field:litpic/]' border='0' width='120' height='120' alt='[field:fulltitle/]' /></a></div>
+
+                <div class="zj_inf z"> <strong>姓名:<span class="gr">[field:title/]</span></strong><br />
+
+                  <strong>职称：</strong><span class="gr">[field:zhicheng/]</span><br />
+
+                  <p><strong>简介：</strong>[field:infos/]…<a href="[field:arcurl/]" class="red">[详细]</a></p>
+
+                  <a href="/swt/" target='_blank'><img src="/images/gc_78.jpg" alt='咨询' /></a> <a href="/swt/" target="_blank"><img src="/images/gc_79.jpg" alt='在线咨询' /></a></div>
+
+                
+
+                <!-- /box --> 
+
+                
+
+              </li>
+
+              {/dede:arclist}
+
+            </ul>
+
+          </div>
+
+          
+
+          <!-- /botton-scroll --> 
+
+          
+
+        </div>
+
+        
+
+        <!-- /block --> 
+
+        
+
+        <a style="position:relative;margin-left:12px;" class=prev id="arrLeft2"></a><a class=next  style="position:relative;margin-right:12px;" id="arrRight2"></a></div>
+
+      
+
+      <!-- /feature --> 
+
+      
+
+    </div>
+
+    
+
+    <!-- /featureContainer --> 
+
+    
+
+  </div>
+
+  
+
+  <!--part3_end专家结束--> 
+
+  
+
+  <!--part7_end--> 
+
+  
+
+  <!--就医指南-->
+
+  
+
+  <div class="part8">
+
+    <div class="p8_z z">
+
+      <div id="tb16_" class="tb16_">
+
+        <ul>
+
+          <li id="tb16_1" class="hovertab16" onmouseover="x:HoverLi16(1);"><strong><a title="院内环境" >院内环境</a></strong></li>
+
+          <li id="tb16_2" class="normaltab16" onmouseover="i:HoverLi16(2);"><strong><a title="先进设备" >先进设备</a></strong></li>
+
+          <li id="tb16_3" class="normaltab16" onmouseover="i:HoverLi16(3);"><strong><a title="荣誉证书" >荣誉证书</a></strong></li>
+
+        </ul>
+
+      </div>
+
+      <div class="ctt16">
+
+        <ul class="dis" id="tbc16_01">
+
+          {dede:arclist row=3 flag='p' typeid='5'}
+
+          <li><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" /><br />
+
+            [field:title/]</a></li>
+
+          {/dede:arclist}
+
+        </ul>
+
+        <div class="cl" style="height:0px;"></div>
+
+        <ul class="undis" id="tbc16_02">
+
+          {dede:arclist row=3 flag='p' typeid='7'}
+
+          <li><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" /><br />
+
+            [field:title/]</a></li>
+
+          {/dede:arclist}
+
+        </ul>
+
+        <div class="cl"></div>
+
+        <ul class="undis" id="tbc16_03">
+
+          {dede:arclist row=3 flag='p' typeid='6'}
+
+          <li><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" /><br />
+
+            [field:title/]</a></li>
+
+          {/dede:arclist}
+
+        </ul>
+
+      </div>
+
+      
+
+      <!--ctt16_end--> 
+
+      
+
+    </div>
+
+    <div class="p8_y y">
+      {dede:type typeid=8}
+      <div class="p8y_tt wt"><a href="[field:typelink/]" target='_blank'>来院路线</a></div>
+
+      <div class="p8y_b"> <a href='[field:typelink/]' target=_blank><img src="/images/laiyuanlx01.jpg" alt='来院地图' style="width:248px;height:91px;"/></a>
+
+        <p> <b>医院地址：</b>成都市武侯大道双楠段38号<br />
+
+          <b>咨询电话：</b><span class="red">028-85596750</span><br />
+
+          <span class="red bl">就诊前请提前网络咨询预约</span>（无假日医院) </p>
+
+      </div>
+
+    </div>
+    {/dede:type}
+  </div>
+
+  
+
+  <!--part8_end--> 
+
+  
+
+</div>
+
+</div>
+
+</div>
+
+{dede:include filename="footer.htm"/} 
+
+
+
+<!--底部-->
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" target="_blank">ณฃสถ</a>

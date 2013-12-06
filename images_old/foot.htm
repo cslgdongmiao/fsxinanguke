@@ -1,0 +1,158 @@
+<script language="javascript" src="/js/common.js"></script>
+
+<script type="text/javascript">new Marquee("toptxt",2,1,310,27,30,0,2000,3000)</script>
+
+<script type="text/javascript">
+
+//表单
+
+function check() {
+
+	if (gh_form.name.value=="" || gh_form.name.value=="输入您的真实姓名"){alert("输入您的真实姓名...");gh_form.name.focus();return false}
+
+	if(/[\u4E00-\u9FA5]/g.test(gh_form.date.value) || /^[a-za-z]+$/.test(gh_form.date.value)){alert("您填入的日期格式错误");gh_form.date.focus();return false}
+
+	if (gh_form.phone.value=="" || gh_form.phone.value=="输入您的常用手机及固定电话号码"){alert("请输入您的常用手机或固定电话号码");gh_form.phone.focus();return false}
+
+	if(/[\u4E00-\u9FA5]/g.test(gh_form.phone.value) || /^[a-za-z]+$/.test(gh_form.phone.value))
+
+	{alert("您填入的电话号码格式错误");gh_form.phone.focus();return false}
+
+if(gh_form.phone.value.length<7 || gh_form.phone.value.length>8){	if(gh_form.phone.value.length<11 || gh_form.phone.value.length>12){
+
+alert("您填入的电话号码格式错误");gh_form.phone.focus();return false}}
+
+}
+
+</script>
+
+  <!-- 预约挂号 -->
+
+  <div class="ghtitle" id="guahao"><img src="/images/ghpt.jpg" alt="" width="320" height="32"></div>
+
+  <div class="youx">&nbsp;·&nbsp;公告：通过网络、手机挂号，来院可享优先就诊权</div>
+
+  <div class="in_center">
+
+    <form id="gh_form" name="gh_form" action="http://ziyuan.fsb006.com/plus/diy_mfsb006_yuyue.php"  target="sf" enctype="multipart/form-data" method="post" onSubmit="javascript:return check();">
+
+<input type="hidden" name="action" value="post" />
+
+<input type="hidden" name="diyid" value="18" />
+
+<input type="hidden" name="do" value="2" />
+
+      <table width="319">
+
+        <tr height="40">
+
+          <td width="80" class="label"><em>*</em>姓 名</td>
+
+          <td width="249" class="field"><input id="name" name="name" onFocus="if(this.value==this.defaultValue){this.value='';};"  onblur="if(this.value==''){this.value=this.defaultValue;}" type="text" value="输入您的真实姓名"/></td>
+
+        </tr>
+
+        <tr height="40">
+
+          <td class="label">年 龄</td>
+
+          <td class="field"><input id="age" name="age" onFocus="if(this.value==this.defaultValue){this.value='';};"  onblur="if(this.value==''){this.value=this.defaultValue;}" type="text" value="输入您的年龄" /></td>
+
+        </tr>
+
+        <tr height="40">
+
+          <td class="label"><em>*</em>联系电话</td>
+
+          <td class="field"><input id="phone" name="phone" onFocus="if(this.value==this.defaultValue){this.value='';};"  onblur="if(this.value==''){this.value=this.defaultValue;}" type="text" value="输入您的常用手机及固定电话号码" /></td>
+
+        </tr>
+
+        <tr>
+
+          <td class="label">备注</td>
+
+          <td class="field"><textarea name="beizhu" onFocus="if(this.value==this.defaultValue){this.value='';};"  onblur="if(this.value==''){this.value=this.defaultValue;}" type="text" id="beizhu" >如果需要回访，请您特别备注。</textarea></td>
+
+        </tr>
+
+        <tr>
+
+          <td>
+
+          <td width="249"><input type="text" name="ydate" id="ydate"  value="" style="display:none;"/>
+
+        </tr>
+
+        <tr>
+
+          <td height="50" colspan="2" align="center">
+
+              <input type="submit" style="background: url('/images/register_btn2.jpg')no-repeat scroll 0 0 transparent; width:111px; height:26px; margin:0 5px; border:0;" value=""/>
+
+           
+
+            </td>
+
+        </tr>
+
+      </table>
+
+<input type="hidden" value="name,text;age,text;phone,text;beizhu,multitext" name="dede_fields">
+
+<input type="hidden" name="dede_fieldshash" value="bb4c7d8c00e1489e09fe23a07755e0bb" />
+
+</form>
+
+<iframe width="0" scrolling="no" height="0" frameborder="0" src="about:blank" name="sf"></iframe>
+
+
+
+  </div>
+
+  <!-- 预约挂号结束 -->
+
+<div id="foot"> <img src="/images/foot_logo.jpg">
+
+    <p>地址: 广州市越秀区中山二路49号</p>
+
+    <p> 咨询热线:020-22091222</p>
+
+    <h2><a href="javascript:history.back(-1)">返回上一页</a>|<a onclick="window.scrollTo(0,0);">返回顶部</a>|<a href="/swt/">点击预约</a></h2>
+
+</div>
+
+<div class="piaofu1">
+
+	<a href="tel:020-22091222" target="_blank"><img src="/images/zx01.png"></a>	
+
+</div>
+
+
+
+<div class="dibu">
+
+<img src="/images/sjdh.jpg" width="320" height="40" usemap="#dbtp">
+
+<map name="dbtp">
+
+<area shape="rect" href="tel:020-22091222" alt="电话咨询" coords="3,2,80,38">
+
+<area shape="rect" href="/swt/" alt="在线咨询" coords="82,2,159,38">
+
+<area shape="rect" href="/swt/" alt="免费预约" coords="162,2,239,38">
+
+<area shape="rect" href="/lylx/" alt="来院路线" coords="241,2,318,38">
+
+</map>
+
+</div>
+
+
+
+
+
+
+
+
+

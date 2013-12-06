@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" target="_blank"><img src="/images/fs_4.jpg" alt='À´ÔºµØÍ¼' /></a>

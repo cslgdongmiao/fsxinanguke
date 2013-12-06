@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" title="[field:fulltitle/]" target="_blank">强直性脊柱炎病因</a>

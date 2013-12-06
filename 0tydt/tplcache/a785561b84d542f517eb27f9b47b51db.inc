@@ -1,0 +1,1 @@
+<li class='style5'><a href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]">[field:title/]</a></li>

@@ -1,0 +1,1 @@
+<li [field:global name=autoindex runphp="yes"](@me % 2 == 0)?@me="class='tp2'":@me="";[/field:global]><a  href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]">[field:fulltitle/]</a></li>

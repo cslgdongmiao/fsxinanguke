@@ -1,0 +1,2 @@
+<h2><a href="[field:arcurl/]"  target="_blank">5.生物免疫平衡多元疗法四大技术突破</a></h2>
+        <p>2010年净骨疗法体系成功由欧洲引进中国，并经国家风湿病免疫协会投入广泛应用，确切的疗效获得医...<a href="[field:arcurl/]" target="_blank" style="color:#F00">[详细]</a></p>

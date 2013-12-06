@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:field name='title'/}-{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<link href="/css/public.css" rel="stylesheet" type="text/css" />
+<link href="/css/article.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/ScrollPics.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/test.js"></script>
+</head>
+
+<body>
+{dede:include filename="header.htm"/}<!--头部-->
+
+<div class="y_nr w980 mg10 pad_bottom10">
+  <div class="float_l" style="width:690px;">
+    <div class="y_nr_left">
+      <div class="y_wz">您当前的位置：{dede:field name='position'/}</div>
+      <div class="y_main">
+        <h1>{dede:field.title/}</h1>
+        <div class="t_align"><img src="/images/dggc_wz_14.jpg" width="569" height="39" /></div>
+        <div class="y_wznr">{dede:field.content/} </div>
+      </div>
+    </div>
+    <div class="y_zixunhf">
+      <p><a href="/swt/"><img src="/images/qa.jpg"/></a></p>
+      <p style="padding-top: 10px;margin-left: -10px;"><a href="/swt/"><img src="/images/aacbj.gif"/></a></p>
+    </div>
+    <div class="y_zixun_b"><img src="/images/dggc_wz_50.png" width="86" height="92" />
+      <div class="y_zixun_bnr">
+        <p>如果您在生活中遇到健康方面的烦恼问题或者您的朋友和家人需要帮助的时候，你可以通过以下方式和{dede:global.cfg_webname/}取得联系。本院尊重保护患者个人隐私。</p>
+        <strong class="xx_hs"> 医院地址：成都市武侯大道双楠段38号 网址：{dede:global.cfg_basehost/}</strong> </div>
+    </div>
+    
+    <!--专题滚动--> 
+    
+  </div>
+  {dede:include filename="right_kfal.htm"/} </div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

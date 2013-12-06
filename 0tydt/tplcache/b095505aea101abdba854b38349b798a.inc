@@ -1,0 +1,2 @@
+<h2><a href="[field:arcurl/]"  target="_blank">4.生物免疫平衡多元疗法的“1+8”多维检查技术</a></h2>
+        <p>不少风湿患者会有这样的抱怨：同样的治疗方法，为什么别人能治好，而我用了却没效果？在明白...<a href="[field:arcurl/]" target="_blank" style="color:#F00">[详细]</a></p>

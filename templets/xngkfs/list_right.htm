@@ -1,0 +1,52 @@
+<LINK rel=stylesheet type=text/css href="/css/right.css">
+<script language="javascript" type="text/javascript" src="/js/ScrollPic.js"></script>
+
+  <div id="list_right">
+
+ 
+
+		<!--文章页  咨询-->
+
+		<div id="list_right_con3">
+			<ul>
+				<p>专家团队</p>
+				<li><a href="/zjtd/" target="_blank"><img src="/images/right/list_21.png" /></a></li>
+			</ul>
+			<div id="list_right_con31">
+				{dede:arclist addfields='zhicheng,zzjj' channelid='17' typeid='9' row='2' orderby='weight' }
+					<dl>
+					<dt><img src="[field:picname/]" style="width:102px;height:117px;"></dt>
+						<dd><b>[field:title/] [field:zhicheng/]</b>
+							<h4>[field:zzjj function="cn_substr(@me,60)"/]...
+								<a href="[field:arcurl/]" target="_blank">【详细】</a>
+							</h4>
+							<span><a href="/swt/" target="_blank"><img src="/images/right/zxuna01.jpg" /></a></span>
+							<span><a href="/swt/" target="_blank"><img src="/images/right/zxuna02.jpg" /></a></span>
+						</dd>
+					</dl>
+				{/dede:arclist}
+			</div>
+		</div>
+		<!--文章页  技术-->
+		<div id="list_right_con4">
+			<ul>
+				<p>特色疗法</p>
+				<li><a href="/tslf/" target="_blank"><img src="/images/right/list_21.png" /></a></li>
+			</ul>
+			<dl>				
+				<dd><a href="/tslf/" target="_blank"><img src="/images/tslf_right.jpeg" /></a></dd>	  
+			{dede:arclist  typeid='10' row='5' orderby='weight' titlelen='32'}
+			    <dt><span> [field:global.autoindex/]</span><a href="[field:arcurl/]" target="_blank">[field:title/]</a></dt>
+			{/dede:arclist}	
+			</dl>
+		</div>
+		<!--文章页  就医指南-->
+		<!--文章页 来院路线-->
+	  <div id="list_right_con6">
+			<ul>
+				<p>来院路线</p>	
+				<li><a href="/lylx/" target="_blank"><img src="/images/right/list_21.png" /></a></li>
+			</ul>
+			<dl>
+				<dt><a href="/lylx/" target="_blank"><img src="/images/laiyuanlx01.jpg"/></a></dt>				<dd>医院地址：成都市武侯大道双楠段38号</dd>				<dd>咨询电话：<span>028-85596750</span></dd>			</dl>		</div>
+	</div>

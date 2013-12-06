@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" target="_blank">来院路线</a>

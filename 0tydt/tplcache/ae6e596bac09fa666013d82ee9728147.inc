@@ -1,0 +1,1 @@
+[field:content function='cn_substr(@me,60)'/]...<a href="/guanyuwomen">[more]</a>

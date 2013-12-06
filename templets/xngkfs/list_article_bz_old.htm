@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/css/public.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/css/list.css" />
+<script src="/js/jquery.SuperSlide.js" type="text/javascript"></script>
+<script src="/js/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+{dede:include filename="header_bz.htm"/}
+<div class="bs_bg">
+  <div class="dqwz">
+    <p>您目前的位置：{dede:field name='position'/}</p>
+  </div>
+</div>
+<div class="bigbox_top">
+ <div class="ctop1">
+
+    <div class="chd">
+
+      <div class="huandeng">
+
+        <div class="huandeng_img"></div>
+        <embed src="http://ziyuan.fsb006.com/video/player_tu.swf" width="280" height="210" name="wmode" value="opaque" wmode="opaque" allowscriptaccess="always" allowfullscreen="true" flashvars="file=http://ziyuan.fsb006.com/video/xinan/ydy/ydy1.flv&image=http://ziyuan.fsb006.com/video/xinan/ydy/ydy1.jpg"  width="256" height="220" id="vcastr3"> 
+
+   
+      </div>
+
+      
+
+      <!-----------图片切换  end-----------> 
+
+      
+
+    </div>
+
+    <div class="pdbz">
+
+      <div class="pdbz1">
+        <h1>{dede:field.seotitle/}</h1>
+      </div>
+
+      <div class="pdbz2">
+
+        <div class="pdbz2_nav"> </div>
+
+        <div class="chdjs">
+
+          <div class="pdbz2_nr">
+
+            <div class="pdbz2_nr1"> {dede:arclist row='1' titlelen='32' infolen='60' flag='h'}
+
+              <h1>[field:title/]</h1>
+
+              <p>[field:infos/]…<a href="[field:arcurl/]" target="_blank">[详细]</a></p>
+
+              {/dede:arclist} </div>
+
+            <div class="pdbz2_nr2">
+
+              <ul>
+
+                {dede:arclist row='8' titlelen='26' orderby='weight'}
+
+                <li><a href="[field:arcurl/]" title="[field:fulltitle/]"  target="_blank">·[field:title/]</a></li>
+
+                {/dede:arclist}
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+ 
+
+ <!--医院栏目-->
+  <div class="y_yyjj rg" style="float:right;">
+     <div class="y_yyjj_lm"><img src="/images/dggc_wz_03.png" width="280" height="39"></div>
+      <div class="y_yyjj_nr">
+       <dl>
+         <dt><img src="/images/yytp.jpg" width="108" height="111"></dt>
+         <dd>成都西南骨科医院是经卫生主管部门批准建立一家以高技术人才为核心，以微创骨科技术为主导,...<a class="xx_hs" href="/yygk/">详细>></a></dd>
+        </dl>
+        <p class="t_align"><img src="/images/dggc_wz_19.png" width="268" height="122" border="0" usemap="#Map3">
+         <map name="Map3" id="Map3">
+            <area shape="rect" coords="3,74,77,114" href="/swt/" target="_blank">
+            <area shape="rect" coords="94,74,175,114" href="/swt/qq.html" target="_blank">
+            <area shape="rect" coords="188,74,269,116" href="/swt/" target="_blank">
+         </map>
+        </p>
+      </div>
+    </div>
+
+ </div>
+
+
+
+</div>
+<!--banner -->
+<div class="main_banner1 ">
+  <div class="hd">
+    <ul>
+      <li class=" ">1</li>
+      <li class=" ">2</li>
+    </ul>
+  </div>
+  <div class="fhdp">
+    <ul>
+      <li style=""><a target="_blank" href="/zt/tslf/"><img src="/images/tslf.jpg"></a></li>
+      <li style=""><a target="_blank" href="/zt/tf/"><img src="/images/tongfeng.jpg"></a></li>
+    </ul>
+  </div>
+</div> 
+
+
+
+
+<div class="bigbox">  
+<div class="ctop4">
+  <div class="list"> {dede:list pagesize='10' orderby='weight'}
+    <div class="list1">
+      <h1><a href="[field:arcurl/]"  target="_blank">[field:title/]</a></h1>
+      <img src="[field:litpic/]" />
+      <p style=" padding-top:0;">[field:description/]…<a href="[field:arcurl/]"  target="_blank">[详细]</a></p>
+    </div>
+    {/dede:list}
+    <div class="page">
+      <ul>
+        {dede:pagelist listitem="info,index,end,pre,next,pageno,option" listsize="5"/}
+      </ul>
+    </div>
+  </div>
+  </div>
+</div>
+  {dede:include filename='list_right.htm'/} </div>
+</div>
+{dede:include filename='footer.htm'/}
+   <script type="text/javascript">
+		
+		jQuery(".link_lm .gundong1").slide({ mainCell:"ul",autoPage:true,effect:"leftMarquee",autoPlay:true,interTime:50,vis:6});
+		jQuery(".link_lm").slide({ titCell:".scrollUl li",mainCell:".xc"});
+		jQuery(".left").slide({mainCell:".bd .ulWrap",effect:"leftLoop",interTime:5000,autoPlay:true});
+		jQuery(".main_banner1").slide({mainCell:".fhdp ul",autoPlay:true});
+		jQuery(".zjtd_con").slide({ mainCell:"ul",autoPage:true,effect:"left",autoPlay:true,scroll:1,delayTime:300,vis:3});
+
+		</script>
+</body>
+</html>

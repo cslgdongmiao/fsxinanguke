@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<base target="_blank"  />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:field name='title'/}-{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<link href="/css/public.css" rel="stylesheet" type="text/css" />
+<link href="/css/article.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/ScrollPics.js"></script>
+
+</head>
+
+<body>
+{dede:include filename="header.htm"/}<!--头部-->
+
+<div class="y_nr w980 mg10 pad_bottom10">
+  <div class="float_l" style="width:690px;">
+    <div class="y_nr_left">
+      <div class="y_wz">您当前的位置：{dede:field name='position'/}</div>
+      <div class="y_main">
+        <div class="y_wznr">
+        <div style=" width:100%; margin:15px 0; border-bottom:1px dashed #eee;"><span style="display:block; float:left; width:30px; height:30px; line-height:30px; text-align:center; font-size:14px; font-weight:bold; background:#06C; color:#fff;">问</span><span style="display: inline-block; width:610px; margin-left:15px; font-size:14px;">{dede:field.xxwt/}</span></div>
+
+		<div style=" width:100%; margin:15px 0;"><span style="display:block; float:left; width:30px; height:30px; line-height:30px; text-align:center; font-size:14px; font-weight:bold; background:#090; color:#fff;">答</span><span style="display: inline-block; line-height:25px; width:610px; margin-left:15px; font-size:14px;">{dede:field.zjjd/}</span></div>
+          <div> </div>
+        </div>
+      </div>
+    </div>
+    <div class="y_zixunhf">
+      <p><a href="/swt/"><img src="/images/qa.jpg"/></a></p>
+      <p style="padding-top: 10px;margin-left: -10px;"><a href="/swt/"><img src="/images/aacbj.gif"/></a></p>
+    </div>
+    <div class=" y_yeshu">
+      <ul>
+        {dede:prenext get='pre' function='cn_substr(@me, 40)'/}    {dede:prenext get='next' function='cn_substr(@me, 40)'/}
+      </ul>
+    </div>
+    
+    <!--患者评价-->
+    
+    <div class="art_pl">
+      <div class="art_pl_l"></div>
+      <div id="art_pl_m" class="art_pl_m">
+        <ul>
+          <li class="art_bzpl">
+            <dl>
+              <dd>就诊大夫：<span>胡瀛洲</span></dd>
+              <dd>态度：<font>很好</font></dd>
+              <dd>疗效：<font>满意</font></dd>
+              <dt><span>看病过程：</span>确诊为强直性脊柱炎后，辗转多家医院无果，胡瀛洲，为我量生定制治疗方案，采用先进的生物AS-净骨疗法。现在我已经在康复阶段了</dt>
+            </dl>
+          </li>
+          <li class="art_bzpl">
+            <dl>
+              <dd>就诊大夫：<span>胡瀛洲</span></dd>
+              <dd>态度：<font>非常好</font></dd>
+              <dd>疗效：<font>很满意</font></dd>
+              <dt><span>看病过程：</span>我真的很幸运能够来{dede:global.cfg_webname/}进行治疗，更感谢我的主治医师胡瀛洲院长，在那里，不但治疗好了我的疾病，更让我感到了家庭一样的温暖。</dt>
+            </dl>
+          </li>
+          <li class="art_bzpl">
+            <dl>
+              <dd>就诊大夫：<span>胡瀛洲</span></dd>
+              <dd>态度：<font>非常好</font></dd>
+              <dd>疗效：<font>满意</font></dd>
+              <dt><span>看病过程：</span>在去年确诊了自己患的是强直性脊柱炎，胡瀛洲院长通过治疗让我重获了健康，也让我重新找回了即将破碎的篮球梦想。</dt>
+            </dl>
+          </li>
+          <li class="art_bzpl">
+            <dl>
+              <dd>就诊大夫：<span>胡瀛洲</span></dd>
+              <dd>态度：<font>很好</font></dd>
+              <dd>疗效：<font>很满意</font></dd>
+              <dt><span>看病过程：</span>患强直性脊柱炎多年，听朋友介绍{dede:global.cfg_webname/}，咨询了一段时间后到院就诊，确实比以前的疗效要好很多，设备技术都很先进</dt>
+            </dl>
+          </li>
+          <li class="art_bzpl">
+            <dl>
+              <dd>就诊大夫：<span>胡瀛洲</span></dd>
+              <dd>态度：<font>很好</font></dd>
+              <dd>疗效：<font>满意</font></dd>
+              <dt><span>看病过程：</span>由于长期劳作，最终被确诊患上强直性脊柱炎，在网上搜索后看到胡瀛洲院长的专题介绍，便很快预约治疗了，胡瀛洲院长很耐心，技术精湛，让我远离了病痛</dt>
+            </dl>
+          </li>
+        </ul>
+      </div>
+      <div class="art_pl_r">
+        <dl>
+          <dd><a href="/swt/"></a></dd>
+          <dt><a href="/swt/">有疑问，点击在线咨询>></a></dt>
+        </dl>
+      </div>
+    </div>
+    <div class="anli_con1">
+      <ul>
+        {dede:arclist row='3' titlelen='30' flag='p'}
+        <li><a href="[field:arcurl/]" target="_blank"><img alt="[field:fulltitle/]" src="[field:litpic/]" width="210" height="150"></a><span><a href="[field:arcurl/]" target="_blank">[field:fulltitle/]</a></span>
+          <p>[field:infos  function="cn_substr(@me,60)"/]…<a href="[field:arcurl/]" target="_blank">【详细】</a></p>
+        </li>
+        {/dede:arclist}
+      </ul>
+    </div>
+    <div class="y_zixun_b"><img src="/images/dggc_wz_50.png" width="86" height="92" />
+      <div class="y_zixun_bnr">
+        <p>如果您在生活中遇到健康方面的烦恼问题或者您的朋友和家人需要帮助的时候，你可以通过以下方式和{dede:global.cfg_webname/}取得联系。本院尊重保护患者个人隐私。</p>
+        <strong class="xx_hs"> 医院地址：成都市武侯大道双楠段38号 网址：{dede:global.cfg_basehost/}</strong> </div>
+    </div>
+    
+    <!--专题滚动--> 
+    
+  </div>
+  {dede:include filename="article_right.htm"/} </div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

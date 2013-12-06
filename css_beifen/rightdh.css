@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.z_dw100 { height:365px; /* 框架相对应的高度 */ width:149px;; /* 框架相对应的宽度 */ position:fixed !important; _position:absolute; _bottom:auto; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)));  /*用于兼容ie6*/top:62px; background:url(../11/tel.jpg) no-repeat center top;}
+.z_dw_1 {/*height: 335px;  框架相对应的高度 */ width:149px;; /* 框架相对应的宽度 */ position:fixed !important; _position:absolute; _bottom:auto; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)));  /*用于兼容ie6*/top:52px;  center top;}
+.z_wrap_1 {height: auto; width: auto; }
+.z_input_01 { width:111px; margin: 193px 3px 6px 20px; height:14px; line-height:14px; font-size:14px; border:0; background:none; float:left; }
+.np_01 { margin-top: 139px; margin-left: 5px; }
+.np1_01 { margin-top: 139px; margin-left: 54px; }
+.z_button_01 { width:93px; height:33px; overflow:hidden; background:url(/swt/tel_left/images/tel_04.png) no-repeat center top; border:0; cursor:pointer; float:left; margin-left: 23px; margin-top: 8px;}
+.z_right_01 { float:right; margin:8px 5px 0px 0px; display:inline; }

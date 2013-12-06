@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" target="_blank">Γ½Με±¨µΐ</a>

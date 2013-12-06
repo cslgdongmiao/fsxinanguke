@@ -1,0 +1,1 @@
+<dd> [field:content function='cn_substr(Html2Text(@me),60)'/]...<a href="[field:typeurl/]" target="_blank">¡¾ÏêÏ¸¡¿</a></dd>

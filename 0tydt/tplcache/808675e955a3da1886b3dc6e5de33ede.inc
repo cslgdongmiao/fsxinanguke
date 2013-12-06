@@ -1,0 +1,1 @@
+<dd>[field:description/]...<a href="[field:typeurl/]" target="_blank">¡¾ÏêÏ¸¡¿</a></dd>

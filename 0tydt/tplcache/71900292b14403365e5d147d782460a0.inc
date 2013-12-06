@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" target="_blank" onmouseover="setTab('news',2,2)" id="news2" class="">Γ½Με±¨µΐ</a>

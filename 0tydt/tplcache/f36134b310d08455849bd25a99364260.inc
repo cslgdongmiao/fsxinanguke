@@ -1,0 +1,1 @@
+<li><img src="/images/li.jpg" style="padding-right:5px"/><a href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></li>
